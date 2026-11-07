@@ -1,0 +1,27 @@
+name: status_saver
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  better_native_video_player: ^1.8.0
+  fc_native_video_thumbnail: ^4.0.0
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.6
+  saf: ^2.1.2
+  share_plus: ^13.3.1
+  shared_preferences: ^2.5.6
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  
+
+flutter:
+  uses-material-design: true
